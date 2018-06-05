@@ -5,12 +5,14 @@
 		<title>HTML Academy: Техномарт</title>
 	</head>
 	<body>
+		
+		<!-- HEADER -->
 		<header class="main-header">
 			<div>
-				<h1 class="logo">Техномарт</h1>
+				<h1 class="logo"><a>Техномарт</a></h1>
 				<span class="search">Поиск:</span>
 			</div>
-			<section class="orders">
+			<div class="orders">
 				<ul class="orders-list">
 					<li class="orders-list-item">
 						<a href="#">Закладки:0</a>
@@ -22,18 +24,18 @@
 				<span class="button-order">
 					<a href="#">Оформить заказ</a>
 				</span>
-			</section>
+			</div>
 			<div class="top-coordinates">
 				<p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
-				<p>+7 (812) 555-05-55
-				<br/> г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+				<a href="tel:+7 (812) 555 05 55">+7 (812) 555-05-55</a>
+				<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
 			</div>
-			<nav class="access-navigation">
+			<div class="access-navigation">
 				<ul class="access-navigation-list">
 					<li class="access-navigation-list-item"><a href="#">Войти</a></li>
 					<li class="access-navigation-list-item"><a href="#">Регистрация</a></li>
 				</ul>
-			</nav>
+			</div>
 			<nav class="main-navigation">
 				<ul class="main-navigation-list">
 					<li class="main-navigation-list-item">
@@ -60,6 +62,7 @@
 				</ul>
 			</nav>
 		</header>
+		<!-- END HEADER -->
 		<main class="container">
 			<h1 class="visually-hidden">Магазин строительных товаров "Техномарт"</h1>
 			<section class="goods">
@@ -93,15 +96,48 @@
 				<h3>Доставка</h3>
 				<a href="#">Бесплатно</a>
 			</div>
+			<!-- POPULAR GOODS -->
 			<section class="popular-goods">
 				<h2 class="popular-goods-header">Популярные товары</h2>
 				<a href="#">Все популярные товары</a>
 				<ul class="popular-goods-list">
 					<li class="popular-goods-list-item">
 						<img src="#" alt="Перфоратор  BOSCH BFG 9000">
-						<h3>Перфоратор BOSCH BFG 9000</h3>
+						<h3 class="popular-goods-list-item-name">Перфоратор BOSCH BFG 3000</h3>
 						<span class="old-price">32500 р.</span>
-						<span class="actual-price">25000 р.</span>
+						<span class="actual-price">25500 р.</span>
+						<div class="popular-goods-list-item-shop">
+							<ul class="popular-goods-list-item-shop">
+								<li class="popular-goods-list-item-shop-buy">
+									<a href="#">Купить</a>
+								</li>
+								<li class="popular-goods-list-item-shop-bookmark">
+									<a href="#">В закладки</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="popular-goods-list-item">
+						<img src="#" alt="Перфоратор  BOSCH BFG 6000">
+						<h3 class="popular-goods-list-item-name">Перфоратор BOSCH BFG 3000</h3>
+						<span class="old-price">22500 р.</span>
+						<span class="actual-price">15500 р.</span>
+						<div class="popular-goods-list-item-shop">
+							<ul class="popular-goods-list-item-shop">
+								<li class="popular-goods-list-item-shop-buy">
+									<a href="#">Купить</a>
+								</li>
+								<li class="popular-goods-list-item-shop-bookmark">
+									<a href="#">В закладки</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="popular-goods-list-item">
+						<img src="#" alt="Перфоратор  BOSCH BFG 2000">
+						<h3 class="popular-goods-list-item-name">Перфоратор BOSCH BFG 6000</h3>
+						<span class="old-price">30500 р.</span>
+						<span class="actual-price">25500 р.</span>
 						<div class="popular-goods-list-item-shop">
 							<ul class="popular-goods-list-item-shop">
 								<li class="popular-goods-list-item-shop-buy">
@@ -115,24 +151,23 @@
 					</li>
 					<li class="popular-goods-list-item">
 						<img src="#" alt="Перфоратор  BOSCH BFG 3000">
-						<h3>Перфоратор BOSCH BFG 3000</h3>
-						<span class="old-price">32500 р.</span>
-						<span class="actual-price">25000 р.</span>
-					</li>
-					<li class="popular-goods-list-item">
-						<img src="#" alt="Перфоратор  BOSCH BFG 6000">
-						<h3>Перфоратор BOSCH BFG 6000</h3>
-						<span class="old-price">32500 р.</span>
-						<span class="actual-price">25000 р.</span>
-					</li>
-					<li class="popular-goods-list-item">
-						<img src="#" alt="Перфоратор  BOSCH BFG 2000">
-						<h3>Перфоратор BOSCH BFG 2000</h3>
+						<h3 class="popular-goods-list-item-name">Перфоратор BOSCH BFG 2000</h3>
 						<span class="old-price"></span>
 						<span class="actual-price">12500 р.</span>
+						<div class="popular-goods-list-item-shop">
+							<ul class="popular-goods-list-item-shop">
+								<li class="popular-goods-list-item-shop-buy">
+									<a href="#">Купить</a>
+								</li>
+								<li class="popular-goods-list-item-shop-bookmark">
+									<a href="#">В закладки</a>
+								</li>
+							</ul>
+						</div>
 					</li>
 				</ul>
 			</section>
+			<!-- END POPULAR GOODS -->
 			<section class="popular-producers">
 				<h2 class="popular-producers-header">Популярные производители</h2>
 				<a href="#">Все производители</a>
@@ -198,19 +233,14 @@
 			</section>
 		</main>
 		
+		<!-- MAIN FOOTER -->
 		<footer class="main-footer">
-			<section class="footer-contacts-map">
-				<h2>Контакты</h2>
-				<p>Вы можете забрать товар сами, заехав в наш офис:</p>
-				<img src="#" alt="Наш адрес">
-				<a href="#">Заблудились? Напишите нам!</a>
-			</section>
 			<section class="footer-contacts-adress">
 				<h2 class="logo">Техномарт</h2>
-				<p>г. Санкт-Петербург, Ул. Б. Конюшенная, д. 19/8
-				<br/> +7 (812) 555-05-55</p>
+				<p>г. Санкт-Петербург, Ул. Б. Конюшенная, д. 19/8</p>
+				<a href="tel: +7 (812) 555 05 55">+7 (812) 555-05-55</a>
 			</section>
-			<nav class="footer-">
+			<nav class="footer">
 				<ul class="footer-company-list">
 					<li class="footer-company-list-item">
 						<a href="#">Компания</a>
@@ -246,30 +276,31 @@
 		<div class="footer-social-buttons">
 			<ul class="footer-social-buttons">
 				<li class="footer-social-buttons-item">
-					<img src="#" alt="ВКонтакте">
+					<a href="#">ВКонтакте</a>
 				</li>
 				<li class="footer-social-buttons-item">
-					<img src="#" alt="Фейсбук">
+					<a href="#">Фейсбук</a>
 				</li>
 				<li class="footer-social-buttons-item">
-					<img src="#" alt="Инстаграм">
+					<a href="#">Инстаграм</a>
 				</li>
 			</ul>
 		</div>
-		<section class="footer-contacts-emails">
+		<div class="footer-contacts-emails">
 			<ul class="footer-contacts-emails-list">
 				<li class="footer-contacts-emails-list-item">
 					<p>Обратная связь -
-						<br/> mail@htmlacademy.ru
+						<a href="mailto: mail@htmlacademy.ru">mail@htmlacademy.ru</a>
 					</p>
 				</li>
 				<li class="-contacts-emails-list-item">
 					<p>Разработано -
-						<br/> htmlacademy.ru
+						<a href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">htmlacademy.ru</a>
 					</p>
 				</li>
 			</ul>
-		</section>
+		</div>
 	</footer>
+	<!-- END MAIN FOOTER -->
 </body>
 </html>
