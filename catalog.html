@@ -10,7 +10,9 @@
 		<header class="main-header">
 			<div class="main-header-search">
 				<a class="main-header-search-link" href="index.html">Техномарт</a>
-				<span class="search">Поиск:</span>
+				<form class="search" method="post">
+					<input type="search" name="search-box" value="Поиск:">
+				</form>
 			</div>
 			<div class="orders">
 				<ul class="orders-list">
@@ -89,33 +91,54 @@
 			</div>
 			<aside class="filters">
 				<h2 class="filters-header">Фильтр</h2>
-				<section class="filters-price">
-					<h3 class="filters-header">Цена:</h3>
-					<span>Ползунок цены</span>
-					<ul class="filters-price-list">
-						<li class="filters-price-list-start-price">0</li>
-						<li class="filters-price-list-end-price">30000</li>
+				<form class="filters-form">
+					<p>
+						<label for="filters-form-price">
+							<h3 class="filters-header">Цена:</h3>
+						</label>
+						<input id="filters-form-price" type="range" name="Ползунок цены">
+						<input type="text" name="Минимальная цена" value="0">
+						<span>-</span>
+						<input type="text" name="Максимальная цена" value="30000">
+					</p>
+					<label>
+						<h3 class="filters-form-producers">Производители:</h3>
+					</label>
+					<ul class="filters-form-producers=list">
+						<li class="filters-form-producers=list-item">
+							<input id="filters-form-producers=list-item-bosch" type="checkbox" checked="checked" name="Производители">
+							<label for="filters-form-producers=list-item-bosch">Bosch</label>
+						</li>
+						<li class="filters-form-producers=list-item">
+							<input id="filters-form-producers=list-item-interskol" type="checkbox" name="Производители">
+							<label for="filters-form-producers=list-item-interskol">Интерскол</label>
+						</li>
+						<li class="filters-form-producers=list-item">
+							<input id="filters-form-producers=list-item-makita" type="checkbox" checked="checked" name="Производители">
+							<label for="filters-form-producers=list-item-makita">Makita</label>
+						</li>
+						<li class="filters-form-producers=list-item">
+							<input id="filters-form-producers=list-item-dewalt" type="checkbox" name="Производители">
+							<label for="filters-form-producers=list-item-dewalt">Dewalt</label>
+						</li>
+						<li class="filters-form-producers=list-item">
+							<input id="filters-form-producers=list-item-Hitachi" type="checkbox" name="Производители">
+							<label for="filters-form-producers=list-item-Hitachi">Hitachi</label>
+						</li>
 					</ul>
-				</section>
-				<section class="filters-producers">
-					<h3 class="filters-header">Производители:</h3>
-					<!-- TODO: Исправить после просмотра 3 лекции -->
-					<ul class="filters-producers-list">
-						<li class="filters-producers-list-item">BOSCH</li>
-						<li class="filters-producers-list-item">ИНТЕРСКОЛ</li>
-						<li class="filters-producers-list-item">MAKITA</li>
-						<li class="filters-producers-list-item">DEWALT</li>
-						<li class="filters-producers-list-item">HITACHI</li>
-					</ul>
-				</section>
-				<section class="filters-power">
 					<h3 class="filters-header">Питание:</h3>
-					<ul class="filters-power-list">
-						<li class="filters-power-list-item">Аккумуляторные</li>
-						<li class="filters-power-list-item">Сетевые</li>
+					<ul class="filters-form-list">
+						<li class="filters-form-list-item">
+							<input id="filters-form-list-item-acumulator" type="radio" checked="checked" name="Тип аккумулятора">
+							<label for="filters-form-list-item-acumulator">Аккумуляторные</label>
+						</li>
+						<li class="filters-form-list-item">
+							<input id="filters-form-list-item-network" type="radio" name="Тип аккумулятора">
+							<label for="filters-form-list-item-network">Сетевые</label>
+						</li>
 					</ul>
-				</section>
-				<button type="submit">Показать</button>
+					<button type="submit">Показать</button>
+				</form>
 			</aside>
 			<section>
 				<div class="sorting">
@@ -142,7 +165,7 @@
 								</li>
 								<li class="popular-goods-list-item-shop-list-bookmark">
 									<button class="popular-goods-list-item-shop-list-bookmark-link">В закладки</button>
-									</li>
+								</li>
 							</ul>
 						</div>
 					</li>
