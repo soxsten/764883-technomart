@@ -10,8 +10,8 @@
 		<header class="main-header">
 			<div class="main-header-search">
 				<a class="main-header-search-link" href="index.html" title="На главную страницу">Техномарт</a>
-				<form class="search" method="post">
-					<input type="search" name="search-box" value="Поиск:">
+				<form class="search" method="post" action="https://echo.htmlacademy.ru" method="get">
+					<input type="search" name="search-box" placeholder="Поиск:">
 				</form>
 			</div>
 			<div class="orders">
@@ -102,34 +102,34 @@
 					<h3 class="filters-form-producers">Производители:</h3>
 					<ul class="filters-form-producers=list">
 						<li class="filters-form-producers=list-item">
-							<input id="filters-form-producers=list-item-bosch" type="checkbox" checked="checked" name="Производители">
+							<input id="filters-form-producers=list-item-bosch" type="checkbox" checked="checked" name="Производители" value="Bosch">
 							<label for="filters-form-producers=list-item-bosch">Bosch</label>
 						</li>
 						<li class="filters-form-producers=list-item">
-							<input id="filters-form-producers=list-item-interskol" type="checkbox" name="Производители">
+							<input id="filters-form-producers=list-item-interskol" type="checkbox" name="Производители" value="Интерскол">
 							<label for="filters-form-producers=list-item-interskol">Интерскол</label>
 						</li>
 						<li class="filters-form-producers=list-item">
-							<input id="filters-form-producers=list-item-makita" type="checkbox" checked="checked" name="Производители">
+							<input id="filters-form-producers=list-item-makita" type="checkbox" checked="checked" name="Производители" value="Makita">
 							<label for="filters-form-producers=list-item-makita">Makita</label>
 						</li>
 						<li class="filters-form-producers=list-item">
-							<input id="filters-form-producers=list-item-dewalt" type="checkbox" name="Производители">
+							<input id="filters-form-producers=list-item-dewalt" type="checkbox" name="Производители" value="Dewalt">
 							<label for="filters-form-producers=list-item-dewalt">Dewalt</label>
 						</li>
 						<li class="filters-form-producers=list-item">
-							<input id="filters-form-producers=list-item-Hitachi" type="checkbox" name="Производители">
+							<input id="filters-form-producers=list-item-Hitachi" type="checkbox" name="Производители" value="Hitachi">
 							<label for="filters-form-producers=list-item-Hitachi">Hitachi</label>
 						</li>
 					</ul>
 					<h3 class="filters-header">Питание:</h3>
 					<ul class="filters-form-list">
 						<li class="filters-form-list-item">
-							<input id="filters-form-list-item-acumulator" type="radio" checked="checked" name="Тип аккумулятора">
+							<input id="filters-form-list-item-acumulator" type="radio" checked="checked" name="Тип аккумулятора" value="Аккумуляторные">
 							<label for="filters-form-list-item-acumulator">Аккумуляторные</label>
 						</li>
 						<li class="filters-form-list-item">
-							<input id="filters-form-list-item-network" type="radio" name="Тип аккумулятора">
+							<input id="filters-form-list-item-network" type="radio" name="Тип аккумулятора" value="Сетевые">
 							<label for="filters-form-list-item-network">Сетевые</label>
 						</li>
 					</ul>
@@ -299,16 +299,16 @@
 			<div class="main-page-navigation">
 				<ul class="main-page-navigation-list">
 					<li class="main-page-navigation-list-item">
-						<button class="main-page-navigation-list-item-link active-page">1</button>
+						<a class="main-page-navigation-list-item-link active-page" href="#">1</a>
 					</li>
 					<li class="main-page-navigation-list-item">
-						<button class="main-page-navigation-list-item-link active-page">2</button>
+						<a class="main-page-navigation-list-item-link active-page" href="#">2</a>
 					</li>
 					<li class="main-page-navigation-list-item">
-						<button class="main-page-navigation-list-item-link active-page">3</button>
+						<a class="main-page-navigation-list-item-link active-page" href="#">3</a>
 					</li>
 					<li class="main-page-navigation-list-item">
-						<button class="main-page-navigation-list-item-link active-page">Следующая</button>
+						<a class="main-page-navigation-list-item-link active-page" href="#">Следующая</a>
 					</li>
 				</ul>
 			</div>
