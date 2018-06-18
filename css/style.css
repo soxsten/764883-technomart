@@ -34,7 +34,7 @@
 	color: #ee3643;
 }
 
-.top-coordinates-text {
+.top-coordinates-text-street {
 	font-size: 14px;
 	line-height: 24px;
 	color: #32425c;
@@ -46,8 +46,62 @@
 	color: #000000;
 }
 
-.access-navigation-list-item-link {
-	font-size: 21px;
-	line-height: 21px;
-	color: #000000;	
+.main-navigation-list-item-link {
+	font-size: 17px;
+	line-height: 17px;
+	color: #ffffff;	
+}
+
+.goods-list-item-header {
+	font-size: 24px;
+	line-height: 30px;
+	color: #ffffff;	
+}
+
+.button {
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;	
+}
+
+.discount-header {
+	font-size: 24px;
+	line-height: 30px;
+	color: #ffffff;	
+}
+
+.discount-link {
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;	
+}
+
+.delivery-header {
+	font-size: 24px;
+	line-height: 30px;
+	color: #ffffff;	
+}
+
+.delivery-link {
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;	
+}
+
+.main-goods-header {
+	font-size: 36px;
+	line-height: 36px;
+	color: #ffffff;	
+}
+
+.main-goods-text {
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;	
+}
+
+.button.button-main-goods {
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;	
 }
