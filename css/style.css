@@ -1,8 +1,13 @@
+a {
+	text-decoration: none;
+}
+
 /*Техномарт*/
 .main-header-search-link {
 	font-size: 24px;
 	line-height: 24px;
 	color: #ffffff;
+	text-transform: uppercase;
 }
 
 /*Поиск*/
@@ -72,7 +77,8 @@
 .button {
 	font-size: 14px;
 	line-height: 18px;
-	color: #ffffff;	
+	color: #ffffff;
+	text-transform: uppercase;
 }
 
 /*Скидки*/
@@ -87,6 +93,7 @@
 	font-size: 14px;
 	line-height: 18px;
 	color: #ffffff;	
+	text-transform: uppercase;
 }
 
 /*Доставка*/
@@ -100,14 +107,16 @@
 .delivery-link {
 	font-size: 14px;
 	line-height: 18px;
-	color: #ffffff;	
+	color: #ffffff;
+	text-transform: uppercase;
 }
 
 /*Слайдер заголовок*/
 .main-goods-header {
 	font-size: 36px;
 	line-height: 36px;
-	color: #ffffff;	
+	color: #ffffff;
+	text-transform: uppercase;
 }
 
 /*Слайдер описание*/
@@ -121,7 +130,8 @@
 .button-main-goods {
 	font-size: 14px;
 	line-height: 18px;
-	color: #ffffff;	
+	color: #ffffff;
+	text-transform: uppercase;
 }
 
 /*Популярные товары*/
@@ -136,6 +146,7 @@
 	font-size: 14px;
 	line-height: 18px;
 	color: #32425c;
+	text-transform: uppercase;
 }
 
 /*Название товара*/
@@ -163,28 +174,32 @@
 .popular-producers-header {
 	font-size: 30px;
 	line-height: 30px;
-	color: #32425c;	
+	color: #32425c;
+	text-transform: uppercase;
 }
 
 /*Производители кнопка*/
 .popular-producers-header-link {
 	font-size: 14px;
 	line-height: 18px;
-	color: #ffffff;	
+	color: #ffffff;
+	text-transform: uppercase;
 }
 
 /*Заблудились - напишите нам*/
 .map-coordinates-link {
 	font-size: 14px;
 	line-height: 18px;
-	color: #ffffff;	
+	color: #ffffff;
+	text-transform: uppercase;	
 }
 
 /*Логотип*/
 .logo {
 	font-size: 30px;
 	line-height: 30px;
-	color: #ffffff;	
+	color: #ffffff;
+	text-transform: uppercase;
 }
 
 /*Нижний блок навигации*/
@@ -255,6 +270,7 @@
 	font-size: 30px;
 	line-height: 30px;
 	color: #000000;	
+	text-transform: uppercase;
 }
 
 /*Сервисы описание*/
@@ -276,6 +292,7 @@
 	font-size: 36px;
 	line-height: 36px;
 	color: #000000;
+	text-transform: uppercase;
 }
 
 /*Доставка описание*/
@@ -297,13 +314,7 @@
 	font-size: 36px;
 	line-height: 36px;
 	color: #000000;
-}
-
-/*Гарантия описание*/
-.services-list-item-text {
-	font-size: 13px;
-	line-height: 24px;
-	color: #000000;
+	text-transform: uppercase;
 }
 
 /*Доставка кнопка*/
@@ -318,6 +329,7 @@
 	font-size: 36px;
 	line-height: 36px;
 	color: #000000;
+	text-transform: uppercase;
 }
 
 /*Доставка описание*/
@@ -332,6 +344,7 @@
 	font-size: 13px;
 	line-height: 24px;
 	color: #000000;
+	text-transform: uppercase;
 }
 
 /*О компании*/
@@ -353,6 +366,7 @@
 	font-size: 14px;
 	line-height: 18px;
 	color: #ffffff;	
+	text-transform: uppercase;
 }
 
 /*Контакты заголовок*/
@@ -360,6 +374,7 @@
 	font-size: 30px;
 	line-height: 30px;
 	color: #000000;
+	text-transform: uppercase;
 }
 
 /*Контакты описание*/
@@ -383,20 +398,23 @@
 	font-size: 30px;
 	line-height: 30px;
 	color: #32425c;
+	text-transform: uppercase;
 }
 
 /*Заголовок фильтров*/
 .filters-header {
 	font-size: 13px;
 	line-height: 18px;
-	color: #000000
+	color: #000000;
+	text-transform: uppercase;
 }
 
-/*Цена*/
+/*Цена заголовок*/
 .filters-form-price {
 	font-size: 13px;
 	line-height: 18px;
-	color: #000000
+	color: #000000;
+	text-transform: uppercase;
 }
 
 /*Производители*/
@@ -411,6 +429,7 @@
 	font-size: 17px;
 	line-height: 30px;
 	color: #000000;	
+	text-transform: uppercase;
 }
 
 /*Типы аккумуляторов*/
@@ -418,13 +437,15 @@
 	font-size: 15px;
 	line-height: 20px;
 	color: #000000;	
+	text-transform: uppercase;
 }
 
 /*Сортировка*/
 .sorting-header {
 	font-size: 13px;
 	line-height: 18px;
-	color: #000000;	
+	color: #000000;
+	text-transform: uppercase;
 }
 
 /*Типы сортировок*/
@@ -432,6 +453,8 @@
 	font-size: 13px;
 	line-height: 18px;
 	color: #acaaa5;
+	text-transform: uppercase;
+	border-bottom: 2px dotted #ee3643; 
 }
 
 /*Активный тип сортировки*/
@@ -439,20 +462,38 @@
 	font-size: 13px;
 	line-height: 18px;
 	color: #ee3643;
+	text-transform: uppercase;
 }
 
 /*Кнопка купить*/
 .popular-goods-list-item-shop-list-buy-link {
 	font-size: 14px;
 	line-height: 18px;
-	color: #ffffff
+	color: #ffffff;
+	text-transform: uppercase;
 }
 
 /*Кнопка в закладки*/
 .popular-goods-list-item-shop-list-bookmark-link {
 	font-size: 14px;
 	line-height: 18px;
-	color: #32425c
+	color: #32425c;
+	text-transform: uppercase;
+}
+
+/*Имя пользователя*/
+.access-navigation-list-link {
+	font-size: 21px;
+	line-height: 21px;
+	color: #000000c;
+}
+
+/*Личный кабине, заказы*/
+.access-navigation-list-item-link {
+	font-size: 16px;
+	line-height: 18px;
+	color: #000000c;
+	text-decoration: underline;
 }
 
 /*Активная страница с товаром*/
@@ -481,4 +522,28 @@
 	font-size: 13px;
 	line-height: 24px;
 	color: #000000;
+}
+
+/*Кнопка показать*/
+.submit-filters {
+	font-size: 13px;
+	line-height: 18px;
+	color: #000000;
+	text-transform: uppercase; 
+}
+
+/*Кнопка оформить заказ*/
+.popup-cart-list-item-order {
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+/*Кнопка продолжить покупки*/
+.popup-cart-list-item-continue {
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	text-transform: uppercase;
 }
