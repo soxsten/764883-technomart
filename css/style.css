@@ -173,13 +173,6 @@
 	color: #ffffff;	
 }
 
-/*Подробнее о компании*/
-.about-company-link {
-	font-size: 14px;
-	line-height: 18px;
-	color: #ffffff;	
-}
-
 /*Заблудились - напишите нам*/
 .map-coordinates-link {
 	font-size: 14px;
@@ -255,6 +248,125 @@
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffd180;	
+}
+
+/*Сервисы*/
+.services-header {
+	font-size: 30px;
+	line-height: 30px;
+	color: #000000;	
+}
+
+/*Сервисы описание*/
+.services-speech {
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+
+/*Доставка кнопка*/
+.services-list-item-delivery {
+	font-size: 21px;
+	line-height: 30px;
+	color: #000000;
+}
+
+/*Доставка заголовок*/
+.services-list-item-header {
+	font-size: 36px;
+	line-height: 36px;
+	color: #000000;
+}
+
+/*Доставка описание*/
+.services-list-item-text {
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+
+/*Гарантия кнопка*/
+.services-list-item-garant {
+	font-size: 21px;
+	line-height: 30px;
+	color: #000000;
+}
+
+/*Гарантия заголовок*/
+.services-list-item-header {
+	font-size: 36px;
+	line-height: 36px;
+	color: #000000;
+}
+
+/*Гарантия описание*/
+.services-list-item-text {
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+
+/*Доставка кнопка*/
+.services-list-item-delivery {
+	font-size: 21px;
+	line-height: 30px;
+	color: #000000;
+}
+
+/*Доставка заголовок*/
+.services-list-item-header {
+	font-size: 36px;
+	line-height: 36px;
+	color: #000000;
+}
+
+/*Доставка описание*/
+.services-list-item-text {
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+
+/*Компания Техномарт*/
+.about-company-header {
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+
+/*О компании*/
+.about-company-speech {
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+
+/*Партнеры*/
+.about-company-partners-item {
+	font-size: 18px;
+	line-height: 20px;
+	color: #000000;
+}
+
+/*Подробнее о компании*/
+.about-company-link {
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;	
+}
+
+/*Контакты заголовок*/
+.map-coordinates-header {
+	font-size: 30px;
+	line-height: 30px;
+	color: #000000;
+}
+
+/*Контакты описание*/
+.map-coordinates-text {
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
 }
 
 /*catalog.html*/
