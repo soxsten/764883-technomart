@@ -256,3 +256,117 @@
 	line-height: 18px;
 	color: #ffd180;	
 }
+
+/*catalog.html*/
+
+/*Страницы с разделами*/
+.main-pages-list-item-link {
+	font-size: 13px;
+	line-height: 18px;
+	color: #000000;	
+}
+
+/*Название раздела*/
+.main-pages-header {
+	font-size: 30px;
+	line-height: 30px;
+	color: #32425c;
+}
+
+/*Заголовок фильтров*/
+.filters-header {
+	font-size: 13px;
+	line-height: 18px;
+	color: #000000
+}
+
+/*Цена*/
+.filters-form-price {
+	font-size: 13px;
+	line-height: 18px;
+	color: #000000
+}
+
+/*Производители*/
+.filters-form-producers-list-item {
+	font-size: 15px;
+	line-height: 20px;
+	color: #000000;
+}
+
+/*Заголовок питание*/
+.filters-header-power {
+	font-size: 17px;
+	line-height: 30px;
+	color: #000000;	
+}
+
+/*Типы аккумуляторов*/
+.filters-form-list-item {
+	font-size: 15px;
+	line-height: 20px;
+	color: #000000;	
+}
+
+/*Сортировка*/
+.sorting-header {
+	font-size: 13px;
+	line-height: 18px;
+	color: #000000;	
+}
+
+/*Типы сортировок*/
+.sorting-list-item {
+	font-size: 13px;
+	line-height: 18px;
+	color: #acaaa5;
+}
+
+/*Активный тип сортировки*/
+.active-sort {
+	font-size: 13px;
+	line-height: 18px;
+	color: #ee3643;
+}
+
+/*Кнопка купить*/
+.popular-goods-list-item-shop-list-buy-link {
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff
+}
+
+/*Кнопка в закладки*/
+.popular-goods-list-item-shop-list-bookmark-link {
+	font-size: 14px;
+	line-height: 18px;
+	color: #32425c
+}
+
+/*Активная страница с товаром*/
+.active-page {
+	font-size: 13px;
+	line-height: 18px;
+	color: #ffffff
+}
+
+/*Страницы с товарами*/
+.main-page-navigation-list-item-link {
+	font-size: 13px;
+	line-height: 18px;
+	color: #000000;
+}
+
+/*О перфораторах*/
+.main-page-about-drill-header {
+	font-size: 30px;
+	line-height: 30px;
+	color: #000000;
+}
+
+/*Описание перфоратора*/
+.main-page-about-drill-text {
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
