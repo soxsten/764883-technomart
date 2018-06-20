@@ -1,107 +1,258 @@
+/*Техномарт*/
 .main-header-search-link {
 	font-size: 24px;
 	line-height: 24px;
 	color: #ffffff;
 }
 
+/*Поиск*/
 .search {
 	font-size: 17px;
 	line-height: 18px;
 	color: #ffffff;
 }
 
+/*Закладки, корзина*/
 .orders-list-item-link {
 	font-size: 17px;
 	line-height: 18px;
 	color: #ffffff; 
 }
 
+/*Оформить заказ*/
 .button-order-link {
 	font-size: 17px;
 	line-height: 18px;
 	color: #ffffff; 
 }
 
+/*Описание магазина*/
 .top-coordinates-text {
 	font-size: 16px;
 	line-height: 23px;
 	color: #ee3643;
 }
 
+/*Телефон магазина*/
 .top-coordinates-text-tel {
 	font-size: 21px;
 	line-height: 21px;
 	color: #ee3643;
 }
 
+/*Адрес магазина*/
 .top-coordinates-text-street {
 	font-size: 14px;
 	line-height: 24px;
 	color: #32425c;
 }
 
+/*Авторизация на сайте*/
 .access-navigation-list-item-link {
 	font-size: 21px;
 	line-height: 21px;
 	color: #000000;
 }
 
+/*Блок навигации*/
 .main-navigation-list-item-link {
 	font-size: 17px;
 	line-height: 17px;
 	color: #ffffff;	
 }
 
+/*Разделы товаров*/
 .goods-list-item-header {
 	font-size: 24px;
 	line-height: 30px;
 	color: #ffffff;	
 }
 
+/*Кнопки для разделов*/
 .button {
 	font-size: 14px;
 	line-height: 18px;
 	color: #ffffff;	
 }
 
+/*Скидки*/
 .discount-header {
 	font-size: 24px;
 	line-height: 30px;
 	color: #ffffff;	
 }
 
+/*Скидки кнопка*/
 .discount-link {
 	font-size: 14px;
 	line-height: 18px;
 	color: #ffffff;	
 }
 
+/*Доставка*/
 .delivery-header {
 	font-size: 24px;
 	line-height: 30px;
 	color: #ffffff;	
 }
 
+/*Доставка кнопка*/
 .delivery-link {
 	font-size: 14px;
 	line-height: 18px;
 	color: #ffffff;	
 }
 
+/*Слайдер заголовок*/
 .main-goods-header {
 	font-size: 36px;
 	line-height: 36px;
 	color: #ffffff;	
 }
 
+/*Слайдер описание*/
 .main-goods-text {
 	font-size: 18px;
 	line-height: 24px;
 	color: #ffffff;	
 }
 
-.button.button-main-goods {
+/*Слайдер кнопка*/
+.button-main-goods {
 	font-size: 14px;
 	line-height: 18px;
 	color: #ffffff;	
+}
+
+/*Популярные товары*/
+.popular-goods-header {
+	font-size: 30px;
+	line-height: 30px;
+	color: #32425c;
+}
+
+/*Популярные товары кнопка*/
+.popular-goods-header-link {
+	font-size: 14px;
+	line-height: 18px;
+	color: #32425c;
+}
+
+/*Название товара*/
+.popular-goods-list-item-name {
+	font-size: 18px;
+	line-height: 20px;
+	color: #000000;
+}
+
+/*Старая цена*/
+.old-price {
+	font-size: 18px;
+	line-height: 20px;
+	color: #a9a9a9;
+}
+
+/*Новая цена*/
+.actual-price {
+	font-size: 17px;
+	line-height: 18px;
+	color: #ffffff;		
+}
+
+/*Популярные производители*/
+.popular-producers-header {
+	font-size: 30px;
+	line-height: 30px;
+	color: #32425c;	
+}
+
+/*Производители кнопка*/
+.popular-producers-header-link {
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;	
+}
+
+/*Подробнее о компании*/
+.about-company-link {
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;	
+}
+
+/*Заблудились - напишите нам*/
+.map-coordinates-link {
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;	
+}
+
+/*Логотип*/
+.logo {
+	font-size: 30px;
+	line-height: 30px;
+	color: #ffffff;	
+}
+
+/*Нижний блок навигации*/
+.footer-company-list-item-link {
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;	
+}
+
+/*Навигация по товарам и предложениям*/
+.footer-goods-list-item {
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffd180;
+}
+
+/*Адрес компании в футере*/
+.footer-contacts-adress-text {
+	font-size: 18px;
+	line-height: 24px;
+	color: #f3f7f9;
+}
+
+/*Телефон компании в футере*/
+.footer-contacts-adress-tel {
+	font-size: 18px;
+	line-height: 24px;
+	color: #f3f7f9;	
+}
+
+/*Копирайт*/
+.footer-copyrights {
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;	
+}
+
+/*Обратная связь*/
+.footer-contacts-emails-list-item-text {
+	font-size: 16px;
+	line-height: 18px;
+	color: #f3f7f9;	
+}
+
+/*Почта для обратной связи*/
+.footer-contacts-emails-list-item-mail {
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffd180;	
+}
+
+/*Разработано текст*/
+.footer-contacts-emails-list-text {
+	font-size: 16px;
+	line-height: 18px;
+	color: #f3f7f9;	
+}
+
+/*Сайт компании разработчика*/
+.footer-contacts-emails-list-text-link {
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffd180;	
 }
