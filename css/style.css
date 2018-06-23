@@ -3,13 +3,104 @@ max-width: 100%;
 height: auto;
 }
 
-
-.main-header {
+header {
   background-color: #f3f7f8;
+}
+
+.header-container {
+  background-color: #293449;
+}
+
+.header-wrapper {
+  background-color: #293449;
+}
+
+.button-order {
+  background-color: #63a63e;
 }
 
 .main-header-search {
   background-color: #293449;
+}
+
+.main-navigation {
+  background-color: #32425c;
+}
+
+.main-container {
+  background-color: #ffffff;
+}
+
+.footer-container {
+  background-color: #32425c;
+}
+
+.footer-wrapper {
+  background-color: #293449;
+}
+
+.about-company-container {
+  background-color: #ffffff;
+}
+
+.popup-writeus-container {
+  background-color: #ffffff;
+}
+
+.container {
+  background-color: #ffffff;
+}
+
+.--materials {
+  background-color: #ffbf47;
+}
+
+.--instruments {
+  background-color: #3bbce3;
+}
+
+.--technique {
+  background-color: #dc91d8;
+}
+
+.--discount {
+  background-color: #8ed78f;
+}
+
+.--delivery {
+  background-color: #ffc047;
+}
+
+.button {
+  background-color: #ee3643;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.goods-list-item-button {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.popular-goods-container {
+  background-color: #f9f5f0;
+}
+
+.popup-writeus-wrapper {
+  background-color: #f4f4f4;
+}
+
+.popup-writeus-submit {
+  background-color: #ee3643;
+  color: #ffffff;
+}
+
+.popular-producers-container {
+  background-color: #f9f5f0;
+}
+
+.services {
+  background-color: #f4f8f9;
 }
 
 html {
@@ -162,13 +253,14 @@ a {
 	font-size: 30px;
 	line-height: 30px;
 	color: #32425c;
+  text-transform: uppercase;
 }
 
 /*Популярные товары кнопка*/
 .popular-goods-header-link {
 	font-size: 14px;
 	line-height: 18px;
-	color: #32425c;
+	color: #ffffff;
 	text-transform: uppercase;
 }
 
