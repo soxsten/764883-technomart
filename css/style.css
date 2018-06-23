@@ -1,3 +1,26 @@
+img {
+max-width: 100%;
+height: auto;
+}
+
+
+.main-header {
+  background-color: #f3f7f8;
+}
+
+.main-header-search {
+  background-color: #293449;
+}
+
+html {
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+*, *::before, *::after {
+-webkit-box-sizing: inherit;
+box-sizing: inherit;
+}
+
 a {
 	text-decoration: none;
 }
@@ -8,27 +31,27 @@ a {
 	line-height: 24px;
 	color: #ffffff;
 	text-transform: uppercase;
+	background-color: #ee3643;
 }
 
 /*Поиск*/
 .search {
 	font-size: 17px;
 	line-height: 18px;
-	color: #ffffff;
 }
 
 /*Закладки, корзина*/
 .orders-list-item-link {
 	font-size: 17px;
 	line-height: 18px;
-	color: #ffffff; 
+	color: #ffffff;
 }
 
 /*Оформить заказ*/
 .button-order-link {
 	font-size: 17px;
 	line-height: 18px;
-	color: #ffffff; 
+	color: #ffffff;
 }
 
 /*Описание магазина*/
@@ -63,14 +86,14 @@ a {
 .main-navigation-list-item-link {
 	font-size: 17px;
 	line-height: 17px;
-	color: #ffffff;	
+	color: #ffffff;
 }
 
 /*Разделы товаров*/
 .goods-list-item-header {
 	font-size: 24px;
 	line-height: 30px;
-	color: #ffffff;	
+	color: #ffffff;
 }
 
 /*Кнопки для разделов*/
@@ -85,14 +108,14 @@ a {
 .discount-header {
 	font-size: 24px;
 	line-height: 30px;
-	color: #ffffff;	
+	color: #ffffff;
 }
 
 /*Скидки кнопка*/
 .discount-link {
 	font-size: 14px;
 	line-height: 18px;
-	color: #ffffff;	
+	color: #ffffff;
 	text-transform: uppercase;
 }
 
@@ -100,7 +123,7 @@ a {
 .delivery-header {
 	font-size: 24px;
 	line-height: 30px;
-	color: #ffffff;	
+	color: #ffffff;
 }
 
 /*Доставка кнопка*/
@@ -123,7 +146,7 @@ a {
 .main-goods-text {
 	font-size: 18px;
 	line-height: 24px;
-	color: #ffffff;	
+	color: #ffffff;
 }
 
 /*Слайдер кнопка*/
@@ -167,7 +190,7 @@ a {
 .actual-price {
 	font-size: 17px;
 	line-height: 18px;
-	color: #ffffff;		
+	color: #ffffff;
 }
 
 /*Популярные производители*/
@@ -191,7 +214,7 @@ a {
 	font-size: 14px;
 	line-height: 18px;
 	color: #ffffff;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 /*Логотип*/
@@ -206,7 +229,7 @@ a {
 .footer-company-list-item-link {
 	font-size: 18px;
 	line-height: 24px;
-	color: #ffffff;	
+	color: #ffffff;
 }
 
 /*Навигация по товарам и предложениям*/
@@ -227,49 +250,49 @@ a {
 .footer-contacts-adress-tel {
 	font-size: 18px;
 	line-height: 24px;
-	color: #f3f7f9;	
+	color: #f3f7f9;
 }
 
 /*Копирайт*/
 .footer-copyrights {
 	font-size: 16px;
 	line-height: 18px;
-	color: #ffffff;	
+	color: #ffffff;
 }
 
 /*Обратная связь*/
 .footer-contacts-emails-list-item-text {
 	font-size: 16px;
 	line-height: 18px;
-	color: #f3f7f9;	
+	color: #f3f7f9;
 }
 
 /*Почта для обратной связи*/
 .footer-contacts-emails-list-item-mail {
 	font-size: 16px;
 	line-height: 18px;
-	color: #ffd180;	
+	color: #ffd180;
 }
 
 /*Разработано текст*/
 .footer-contacts-emails-list-text {
 	font-size: 16px;
 	line-height: 18px;
-	color: #f3f7f9;	
+	color: #f3f7f9;
 }
 
 /*Сайт компании разработчика*/
 .footer-contacts-emails-list-text-link {
 	font-size: 16px;
 	line-height: 18px;
-	color: #ffd180;	
+	color: #ffd180;
 }
 
 /*Сервисы*/
 .services-header {
 	font-size: 30px;
 	line-height: 30px;
-	color: #000000;	
+	color: #000000;
 	text-transform: uppercase;
 }
 
@@ -365,7 +388,7 @@ a {
 .about-company-link {
 	font-size: 14px;
 	line-height: 18px;
-	color: #ffffff;	
+	color: #ffffff;
 	text-transform: uppercase;
 }
 
@@ -390,7 +413,7 @@ a {
 .main-pages-list-item-link {
 	font-size: 13px;
 	line-height: 18px;
-	color: #000000;	
+	color: #000000;
 }
 
 /*Название раздела*/
@@ -428,7 +451,7 @@ a {
 .filters-header-power {
 	font-size: 17px;
 	line-height: 30px;
-	color: #000000;	
+	color: #000000;
 	text-transform: uppercase;
 }
 
@@ -436,7 +459,7 @@ a {
 .filters-form-list-item {
 	font-size: 15px;
 	line-height: 20px;
-	color: #000000;	
+	color: #000000;
 	text-transform: uppercase;
 }
 
@@ -454,7 +477,7 @@ a {
 	line-height: 18px;
 	color: #acaaa5;
 	text-transform: uppercase;
-	border-bottom: 2px dotted #ee3643; 
+	border-bottom: 2px dotted #ee3643;
 }
 
 /*Активный тип сортировки*/
@@ -529,7 +552,7 @@ a {
 	font-size: 13px;
 	line-height: 18px;
 	color: #000000;
-	text-transform: uppercase; 
+	text-transform: uppercase;
 }
 
 /*Кнопка оформить заказ*/
