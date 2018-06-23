@@ -121,17 +121,18 @@
 					<a class="discount-link" href="#" title="Скидки на товары">На 350 товаров</a>
 				</div>
 				<div class="delivery --delivery">
-					<h3 class="delivery-header">Доставка</h3>
+					<h3 class="delivery-header active-service">Доставка</h3>
 					<a class="delivery-link" href="#" title="Доставка бесплатно">Бесплатно</a>
 				</div>
 			</section>
 			
 			<!-- POPULAR GOODS -->
-      <div class="popular-goods-container">
         <section class="popular-goods">
+          <div class="popular-goods-container">
           <h2 class="popular-goods-header">Популярные товары</h2>
           <a class="button popular-goods-header-link" href="#" title="Все популярные товары">Все популярные товары</a>
-          <ul class="popular-goods-list">
+          </div>
+            <ul class="popular-goods-list">
             <li class="popular-goods-list-item">
               <img src="img/popular/popular_1.jpg" alt="Перфоратор  BOSCH BFG 9000">
               <h3 class="popular-goods-list-item-name">Перфоратор BOSCH BFG 9000</h3>
@@ -198,7 +199,6 @@
             </li>
           </ul>
         </section>
-      </div>
 			<!-- END POPULAR GOODS -->
 			<!-- POPUP ADDED TO CART -->
 			<section class="popup-cart">
@@ -214,11 +214,12 @@
 			</section>
 			<!-- END POPUP ADDED TO CART -->
 			<!-- POPULAR PRODUCERS -->
-      <div class="popular-producers-container">
         <section class="popular-producers">
+          <div class="popular-producers-container">
           <h2 class="popular-producers-header">Популярные производители</h2>
           <a class="button popular-producers-header-link" href="#" title="Все производители">Все производители</a>
-          <ul class="popular-producers-list">
+          </div>
+            <ul class="popular-producers-list">
             <li class="popular-producers-list-item">
               <a class="popular-producers-list-item-link" href="#" title="Логотип Bosch">
                 <img src="img/producers/bosch.jpg" alt="BOSCH">
@@ -261,7 +262,6 @@
             </li>
           </ul>
         </section>
-      </div>
 			<!-- END POPULAR PRODUCERS -->
 			<section class="services">
 				<h2 class="services-header">Сервисы</h2>
@@ -269,17 +269,19 @@
 				<!-- TODO: Сделать слайдер -->
 				<ul class="services-list">
 					<li class="services-list-item">
-						<button class="services-list-item-delivery" type="button">Доставка</button>
-						<h2 class="services-list-item-header">Доставка</h2>
-						<p class="services-list-item-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+            <div class="delivery-wrapper">
+              <button class="services-list-item-button --active-service" type="button">Доставка</button>
+            </div>
+            <h2 class="services-list-item-header">Доставка</h2>
+            <p class="services-list-item-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
 					</li>
 					<li class="services-list-item">
-						<button class="services-list-item-garant" type="button">Гарантия</button>
+						<button class="services-list-item-button" type="button">Гарантия</button>
 						<h2 class="services-list-item-header">Гарантия</h2>
 						<p class="services-list-item-text">Если купленны у нас товар сломается или заискрит, а также в случае пожара, спровоцированного его возгаранием, вы всегда можете быть уверенны в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом восстановите как-нибудь сами.</p>
 					</li>
 					<li class="services-list-item">
-						<button class="services-list-item-delivery" type="button">Кредит</button>
+						<button class="services-list-item-button" type="button">Кредит</button>
 						<h2 class="services-list-item-header">Кредит</h2>
 						<p class="services-list-item-text">Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
 					</li>

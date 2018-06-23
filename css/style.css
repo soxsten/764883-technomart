@@ -3,6 +3,44 @@ max-width: 100%;
 height: auto;
 }
 
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+button.services-list-item-delivery {
+  color: #32425c;
+}
+
+.access-navigation-list-item {
+  background-color: #ffffff;
+}
+
+.access-navigation-list-item-link {
+  color: #000000;
+}
+
+.footer-contacts-emails-list-text-link {
+  color: #ffd180;
+}
+
+.footer-contacts-adress-text {
+  color: #f3f7f9;
+}
+
+.logo {
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.footer-company-list-item-link {
+  color: #f3f7f9;
+}
+
 header {
   background-color: #f3f7f8;
 }
@@ -103,6 +141,22 @@ header {
   background-color: #f4f8f9;
 }
 
+.delivery-wrapper {
+  background-color: #ffffff;
+}
+
+.services-list-item-button {
+  color: #ffffff;
+}
+
+.--active-service {
+  color: #32425c;
+}
+
+a.top-coordinates-text-tel {
+  border: 2px solid #ffffff;
+}
+
 html {
 -webkit-box-sizing: border-box;
 box-sizing: border-box;
@@ -114,6 +168,10 @@ box-sizing: inherit;
 
 a {
 	text-decoration: none;
+}
+
+.footer-goods-list-item-link {
+  color: #ffd180;
 }
 
 /*Техномарт*/
@@ -600,14 +658,14 @@ a {
 .access-navigation-list-link {
 	font-size: 21px;
 	line-height: 21px;
-	color: #000000c;
+	color: #000000;
 }
 
 /*Личный кабине, заказы*/
 .access-navigation-list-item-link {
 	font-size: 16px;
 	line-height: 18px;
-	color: #000000c;
+	color: #000000;
 	text-decoration: underline;
 }
 
