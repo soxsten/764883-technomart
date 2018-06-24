@@ -12,18 +12,24 @@
       <div class="header-container">
         <div class="header-wrapper">
           <div class="main-header-search">
-            <a class="main-header-search-link">Техномарт</a>
-            <form class="search" method="post" action="https://echo.htmlacademy.ru">
+            <label for="search-id">
+              <button class="main-header-search-link">Техномарт</button>
+            </label>
+            <form class="search" id="search-id" method="post" action="https://echo.htmlacademy.ru">
               <input type="search" name="search-box" placeholder="Поиск:">
             </form>
           </div>
           <div class="orders">
             <ul class="orders-list">
               <li class="orders-list-item">
-                <a class="orders-list-item-link" href="#" title="Закладки">Закладки:0</a>
+                <div class="bookmark-wrapper">
+                  <a class="orders-list-item-link" href="#" title="Закладки">Закладки:0</a>
+                </div>
               </li>
               <li class="orders-list-item">
-                <a class="orders-list-item-link" href="#" title="Корзина">Корзина:0</a>
+                <div class="cart-wrapper">
+                  <a class="orders-list-item-link" href="#" title="Корзина">Корзина:0</a>
+                </div>
               </li>
             </ul>
             <div class="button-order">
@@ -34,13 +40,19 @@
       </div>
 			<div class="top-coordinates">
 				<p class="top-coordinates-text">Интернет-магазин строительных материалов и инструментов для ремонта</p>
-				<a class="top-coordinates-text-tel" href="tel:+78125550555" title="Телефон компании">+7 (812) 555-05-55</a>
+				<div class="tel-wrapper">
+          <a class="top-coordinates-text-tel" href="tel:+78125550555" title="Телефон компании">+7 (812) 555-05-55</a>
+        </div>
 				<p class="top-coordinates-text-street">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
 			</div>
 			<div class="access-navigation">
 				<ul class="access-navigation-list">
 					<li class="access-navigation-list-item">
-						<a class="access-navigation-list-item-link" href="#" title="Войти">Войти</a>
+            <div class="access-wrapper">
+              <a class="access-navigation-list-item-link" href="#" title="Войти">
+                <span class="access-navigation-list-item-link-access">Войти</span>
+              </a>
+            </div>
 					</li>
 					<li class="access-navigation-list-item">
 						<a class="access-navigation-list-item-link" href="#" title="Регистрация">Регистрация</a>
@@ -276,12 +288,16 @@
             <p class="services-list-item-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
 					</li>
 					<li class="services-list-item">
-						<button class="services-list-item-button" type="button">Гарантия</button>
+            <div class="garant-wrapper">
+              <button class="services-list-item-button" type="button">Гарантия</button>
+            </div>
 						<h2 class="services-list-item-header">Гарантия</h2>
 						<p class="services-list-item-text">Если купленны у нас товар сломается или заискрит, а также в случае пожара, спровоцированного его возгаранием, вы всегда можете быть уверенны в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом восстановите как-нибудь сами.</p>
 					</li>
 					<li class="services-list-item">
-						<button class="services-list-item-button" type="button">Кредит</button>
+            <div class="credit-wrapper">
+              <button class="services-list-item-button" type="button">Кредит</button>
+            </div>
 						<h2 class="services-list-item-header">Кредит</h2>
 						<p class="services-list-item-text">Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
 					</li>
@@ -294,9 +310,15 @@
           <p class="about-company-speech">Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями:
           </p>
           <ul class="about-company-partners-list">
-            <li class="about-company-partners-item">Деловые линии</li>
-            <li class="about-company-partners-item">Автротрейдинг</li>
-            <li class="about-company-partners-item">ЖелДорЭкспедиция</li>
+            <li class="about-company-partners-item">
+              <span class="wrapper-redline">Деловые линии</span>
+            </li>
+            <li class="about-company-partners-item">
+              <span class="wrapper-redline">Автротрейдинг</span>
+            </li>
+            <li class="about-company-partners-item">
+              <span class="wrapper-redline">ЖелДорЭкспедиция</span>
+            </li>
           </ul>
           <a class="button about-company-link" href="#" title="Подробнее о компании">Подробнее о компании</a>
         </section>
@@ -376,13 +398,19 @@
           <div class="footer-social-buttons">
             <ul class="footer-social-buttons">
               <li class="footer-social-buttons-item">
-                <a class="footer-social-buttons-item-link" href="#" title="ВКонтакте">ВКонтакте</a>
+                <div class="wrapper-vk">
+                  <a class="footer-social-buttons-item-link" href="#" title="ВКонтакте">ВКонтакте</a>
+                </div>
               </li>
               <li class="footer-social-buttons-item">
-                <a class="footer-social-buttons-item-link" href="#" title="Фейсбук">Фейсбук</a>
+                <div class="wrapper-facebook">
+                  <a class="footer-social-buttons-item-link" href="#" title="Фейсбук">Фейсбук</a>
+                </div>
               </li>
               <li class="footer-social-buttons-item">
-                <a class="footer-social-buttons-item-link" href="#" title="Инстаграм">Инстаграм</a>
+                <div class="wrapper-instagram">
+                  <a class="footer-social-buttons-item-link" href="#" title="Инстаграм">Инстаграм</a>
+                </div>
               </li>
             </ul>
           </div>

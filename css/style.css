@@ -1,6 +1,6 @@
 img {
-max-width: 100%;
-height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 li {
@@ -77,6 +77,11 @@ header {
   background-color: #293449;
 }
 
+.about-company-partners-item {
+  background: url("../img/icons/red-line.png") no-repeat;
+  background-position-y: 50%;
+}
+
 .about-company-container {
   background-color: #ffffff;
 }
@@ -90,23 +95,37 @@ header {
 }
 
 .--materials {
-  background-color: #ffbf47;
+  background: #ffbf47 url("../img/icons/paint.png") no-repeat;
+  background-position-x: 150px;
+  background-position-y: 50%;
 }
 
 .--instruments {
-  background-color: #3bbce3;
+  background: #3bbce3 url("../img/icons/drill.png") no-repeat;
+  background-position-x: 150px;
+  background-position-y: 50%;
 }
 
 .--technique {
-  background-color: #dc91d8;
+  background: #dc91d8 url("../img/icons/tractor.png") no-repeat;
+  background-position-x: 150px;
+  background-position-y: 50%;
 }
 
 .--discount {
-  background-color: #8ed78f;
+  background: #8ed78f url("../img/icons/cart.png") no-repeat;
+  background-position-x: 150px;
+  background-position-y: 50%;
 }
 
 .--delivery {
-  background-color: #ffc047;
+  background: #ffc047 url("../img/icons/delivery.png") no-repeat;
+  background-position-x: 150px;
+  background-position-y: 50%;
+}
+
+.main-goods-slider-next {
+
 }
 
 .button {
@@ -142,7 +161,38 @@ header {
 }
 
 .delivery-wrapper {
-  background-color: #ffffff;
+  background: #ffffff url("../img/icons/dostavka.png") no-repeat;
+}
+
+.garant-wrapper {
+  background: #ffffff url("../img/icons/garantiya.png") no-repeat;
+}
+
+.credit-wrapper {
+  background: #ffffff url("../img/icons/credit.png") no-repeat;
+}
+
+.wrapper-redline {
+  margin-left: 30px;
+}
+
+.wrapper-vk {
+  background: url("../img/icons/vk-icon.png") no-repeat;
+  background-position-y: 50%;
+}
+
+.wrapper-facebook {
+  background: url("../img/icons/fb-icon.png") no-repeat;
+  background-position-y: 50%;
+}
+
+.wrapper-instagram {
+  background: url("../img/icons/insta-icon.png") no-repeat;
+  background-position-y: 50%;
+}
+
+.footer-social-buttons-item-link {
+  margin-left: 40px;
 }
 
 .services-list-item-button {
@@ -153,21 +203,18 @@ header {
   color: #32425c;
 }
 
-a.top-coordinates-text-tel {
-  border: 2px solid #ffffff;
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html {
--webkit-box-sizing: border-box;
-box-sizing: border-box;
-}
 *, *::before, *::after {
--webkit-box-sizing: inherit;
-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .footer-goods-list-item-link {
@@ -176,547 +223,586 @@ a {
 
 /*Техномарт*/
 .main-header-search-link {
-	font-size: 24px;
-	line-height: 24px;
-	color: #ffffff;
-	text-transform: uppercase;
-	background-color: #ee3643;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #ee3643;
+}
+
+a.main-header-search-link:hover {
+  background-color: #ca2c37;
+}
+
+a.main-header-search-link:active {
+  background-color: #ba2732;
+}
+
+a.main-header-search-link:link {
+  background-color: #ee3643;
+}
+
+button.main-header-search-link:focus {
+  background-color: #293449;
+}
+
+.bookmark-wrapper {
+  background: url("../img/icons/icon-bookmark.png") no-repeat;
+}
+
+.cart-wrapper {
+  background: url("../img/icons/cart-icon.png") no-repeat;
+}
+
+.tel-wrapper {
+  background: url("../img/icons/icon-phone.png") no-repeat;
+  border: 2px solid #ffffff;
+}
+
+.access-wrapper {
+  background: url("../img/icons/icon-login.png") no-repeat;
+}
+
+.access-navigation-list-item-link-access {
+  margin-left: 30px;
 }
 
 /*Поиск*/
 .search {
-	font-size: 17px;
-	line-height: 18px;
+  font-size: 17px;
+  line-height: 18px;
 }
 
 /*Закладки, корзина*/
 .orders-list-item-link {
-	font-size: 17px;
-	line-height: 18px;
-	color: #ffffff;
+  padding-left: 20px;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
 }
 
 /*Оформить заказ*/
 .button-order-link {
-	font-size: 17px;
-	line-height: 18px;
-	color: #ffffff;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
 }
 
 /*Описание магазина*/
 .top-coordinates-text {
-	font-size: 16px;
-	line-height: 23px;
-	color: #ee3643;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ee3643;
 }
 
 /*Телефон магазина*/
 .top-coordinates-text-tel {
-	font-size: 21px;
-	line-height: 21px;
-	color: #ee3643;
+  font-size: 21px;
+  line-height: 21px;
+  color: #ee3643;
+  margin-left: 20px;
 }
 
 /*Адрес магазина*/
 .top-coordinates-text-street {
-	font-size: 14px;
-	line-height: 24px;
-	color: #32425c;
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
 }
 
 /*Авторизация на сайте*/
 .access-navigation-list-item-link {
-	font-size: 21px;
-	line-height: 21px;
-	color: #000000;
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
 }
 
 /*Блок навигации*/
 .main-navigation-list-item-link {
-	font-size: 17px;
-	line-height: 17px;
-	color: #ffffff;
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
 }
 
 /*Разделы товаров*/
 .goods-list-item-header {
-	font-size: 24px;
-	line-height: 30px;
-	color: #ffffff;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
 }
 
 /*Кнопки для разделов*/
 .button {
-	font-size: 14px;
-	line-height: 18px;
-	color: #ffffff;
-	text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 /*Скидки*/
 .discount-header {
-	font-size: 24px;
-	line-height: 30px;
-	color: #ffffff;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
 }
 
 /*Скидки кнопка*/
 .discount-link {
-	font-size: 14px;
-	line-height: 18px;
-	color: #ffffff;
-	text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 /*Доставка*/
 .delivery-header {
-	font-size: 24px;
-	line-height: 30px;
-	color: #ffffff;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
 }
 
 /*Доставка кнопка*/
 .delivery-link {
-	font-size: 14px;
-	line-height: 18px;
-	color: #ffffff;
-	text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 /*Слайдер заголовок*/
 .main-goods-header {
-	font-size: 36px;
-	line-height: 36px;
-	color: #ffffff;
-	text-transform: uppercase;
+  font-size: 36px;
+  line-height: 36px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 /*Слайдер описание*/
 .main-goods-text {
-	font-size: 18px;
-	line-height: 24px;
-	color: #ffffff;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
 }
 
 /*Слайдер кнопка*/
 .button-main-goods {
-	font-size: 14px;
-	line-height: 18px;
-	color: #ffffff;
-	text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 /*Популярные товары*/
 .popular-goods-header {
-	font-size: 30px;
-	line-height: 30px;
-	color: #32425c;
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
   text-transform: uppercase;
 }
 
 /*Популярные товары кнопка*/
 .popular-goods-header-link {
-	font-size: 14px;
-	line-height: 18px;
-	color: #ffffff;
-	text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 /*Название товара*/
 .popular-goods-list-item-name {
-	font-size: 18px;
-	line-height: 20px;
-	color: #000000;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
 }
 
 /*Старая цена*/
 .old-price {
-	font-size: 18px;
-	line-height: 20px;
-	color: #a9a9a9;
+  font-size: 18px;
+  line-height: 20px;
+  color: #a9a9a9;
 }
 
 /*Новая цена*/
 .actual-price {
-	font-size: 17px;
-	line-height: 18px;
-	color: #ffffff;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
 }
 
 /*Популярные производители*/
 .popular-producers-header {
-	font-size: 30px;
-	line-height: 30px;
-	color: #32425c;
-	text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  text-transform: uppercase;
 }
 
 /*Производители кнопка*/
 .popular-producers-header-link {
-	font-size: 14px;
-	line-height: 18px;
-	color: #ffffff;
-	text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 /*Заблудились - напишите нам*/
 .map-coordinates-link {
-	font-size: 14px;
-	line-height: 18px;
-	color: #ffffff;
-	text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 /*Логотип*/
 .logo {
-	font-size: 30px;
-	line-height: 30px;
-	color: #ffffff;
-	text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 /*Нижний блок навигации*/
 .footer-company-list-item-link {
-	font-size: 18px;
-	line-height: 24px;
-	color: #ffffff;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
 }
 
 /*Навигация по товарам и предложениям*/
 .footer-goods-list-item {
-	font-size: 18px;
-	line-height: 24px;
-	color: #ffd180;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffd180;
 }
 
 /*Адрес компании в футере*/
 .footer-contacts-adress-text {
-	font-size: 18px;
-	line-height: 24px;
-	color: #f3f7f9;
+  font-size: 18px;
+  line-height: 24px;
+  color: #f3f7f9;
 }
 
 /*Телефон компании в футере*/
 .footer-contacts-adress-tel {
-	font-size: 18px;
-	line-height: 24px;
-	color: #f3f7f9;
+  font-size: 18px;
+  line-height: 24px;
+  color: #f3f7f9;
 }
 
 /*Копирайт*/
 .footer-copyrights {
-	font-size: 16px;
-	line-height: 18px;
-	color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
 }
 
 /*Обратная связь*/
 .footer-contacts-emails-list-item-text {
-	font-size: 16px;
-	line-height: 18px;
-	color: #f3f7f9;
+  font-size: 16px;
+  line-height: 18px;
+  color: #f3f7f9;
 }
 
 /*Почта для обратной связи*/
 .footer-contacts-emails-list-item-mail {
-	font-size: 16px;
-	line-height: 18px;
-	color: #ffd180;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffd180;
 }
 
 /*Разработано текст*/
 .footer-contacts-emails-list-text {
-	font-size: 16px;
-	line-height: 18px;
-	color: #f3f7f9;
+  font-size: 16px;
+  line-height: 18px;
+  color: #f3f7f9;
 }
 
 /*Сайт компании разработчика*/
 .footer-contacts-emails-list-text-link {
-	font-size: 16px;
-	line-height: 18px;
-	color: #ffd180;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffd180;
 }
 
 /*Сервисы*/
 .services-header {
-	font-size: 30px;
-	line-height: 30px;
-	color: #000000;
-	text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 /*Сервисы описание*/
 .services-speech {
-	font-size: 13px;
-	line-height: 24px;
-	color: #000000;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
 }
 
 /*Доставка кнопка*/
 .services-list-item-delivery {
-	font-size: 21px;
-	line-height: 30px;
-	color: #000000;
+  font-size: 21px;
+  line-height: 30px;
+  color: #000000;
 }
 
 /*Доставка заголовок*/
 .services-list-item-header {
-	font-size: 36px;
-	line-height: 36px;
-	color: #000000;
-	text-transform: uppercase;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 /*Доставка описание*/
 .services-list-item-text {
-	font-size: 13px;
-	line-height: 24px;
-	color: #000000;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
 }
 
 /*Гарантия кнопка*/
 .services-list-item-garant {
-	font-size: 21px;
-	line-height: 30px;
-	color: #000000;
+  font-size: 21px;
+  line-height: 30px;
+  color: #000000;
 }
 
 /*Гарантия заголовок*/
 .services-list-item-header {
-	font-size: 36px;
-	line-height: 36px;
-	color: #000000;
-	text-transform: uppercase;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 /*Доставка кнопка*/
 .services-list-item-delivery {
-	font-size: 21px;
-	line-height: 30px;
-	color: #000000;
+  font-size: 21px;
+  line-height: 30px;
+  color: #000000;
 }
 
 /*Доставка заголовок*/
 .services-list-item-header {
-	font-size: 36px;
-	line-height: 36px;
-	color: #000000;
-	text-transform: uppercase;
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 /*Доставка описание*/
 .services-list-item-text {
-	font-size: 13px;
-	line-height: 24px;
-	color: #000000;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
 }
 
 /*Компания Техномарт*/
 .about-company-header {
-	font-size: 13px;
-	line-height: 24px;
-	color: #000000;
-	text-transform: uppercase;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 /*О компании*/
 .about-company-speech {
-	font-size: 13px;
-	line-height: 24px;
-	color: #000000;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
 }
 
 /*Партнеры*/
 .about-company-partners-item {
-	font-size: 18px;
-	line-height: 20px;
-	color: #000000;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
 }
 
 /*Подробнее о компании*/
 .about-company-link {
-	font-size: 14px;
-	line-height: 18px;
-	color: #ffffff;
-	text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 /*Контакты заголовок*/
 .map-coordinates-header {
-	font-size: 30px;
-	line-height: 30px;
-	color: #000000;
-	text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 /*Контакты описание*/
 .map-coordinates-text {
-	font-size: 13px;
-	line-height: 24px;
-	color: #000000;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
 }
 
 /*catalog.html*/
 
 /*Страницы с разделами*/
 .main-pages-list-item-link {
-	font-size: 13px;
-	line-height: 18px;
-	color: #000000;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
 }
 
 /*Название раздела*/
 .main-pages-header {
-	font-size: 30px;
-	line-height: 30px;
-	color: #32425c;
-	text-transform: uppercase;
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  text-transform: uppercase;
 }
 
 /*Заголовок фильтров*/
 .filters-header {
-	font-size: 13px;
-	line-height: 18px;
-	color: #000000;
-	text-transform: uppercase;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 /*Цена заголовок*/
 .filters-form-price {
-	font-size: 13px;
-	line-height: 18px;
-	color: #000000;
-	text-transform: uppercase;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 /*Производители*/
 .filters-form-producers-list-item {
-	font-size: 15px;
-	line-height: 20px;
-	color: #000000;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
 }
 
 /*Заголовок питание*/
 .filters-header-power {
-	font-size: 17px;
-	line-height: 30px;
-	color: #000000;
-	text-transform: uppercase;
+  font-size: 17px;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 /*Типы аккумуляторов*/
 .filters-form-list-item {
-	font-size: 15px;
-	line-height: 20px;
-	color: #000000;
-	text-transform: uppercase;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 /*Сортировка*/
 .sorting-header {
-	font-size: 13px;
-	line-height: 18px;
-	color: #000000;
-	text-transform: uppercase;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 /*Типы сортировок*/
 .sorting-list-item {
-	font-size: 13px;
-	line-height: 18px;
-	color: #acaaa5;
-	text-transform: uppercase;
-	border-bottom: 2px dotted #ee3643;
+  font-size: 13px;
+  line-height: 18px;
+  color: #acaaa5;
+  text-transform: uppercase;
+  border-bottom: 2px dotted #ee3643;
 }
 
 /*Активный тип сортировки*/
 .active-sort {
-	font-size: 13px;
-	line-height: 18px;
-	color: #ee3643;
-	text-transform: uppercase;
+  font-size: 13px;
+  line-height: 18px;
+  color: #ee3643;
+  text-transform: uppercase;
 }
 
 /*Кнопка купить*/
 .popular-goods-list-item-shop-list-buy-link {
-	font-size: 14px;
-	line-height: 18px;
-	color: #ffffff;
-	text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 /*Кнопка в закладки*/
 .popular-goods-list-item-shop-list-bookmark-link {
-	font-size: 14px;
-	line-height: 18px;
-	color: #32425c;
-	text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  color: #32425c;
+  text-transform: uppercase;
 }
 
 /*Имя пользователя*/
 .access-navigation-list-link {
-	font-size: 21px;
-	line-height: 21px;
-	color: #000000;
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
 }
 
 /*Личный кабине, заказы*/
 .access-navigation-list-item-link {
-	font-size: 16px;
-	line-height: 18px;
-	color: #000000;
-	text-decoration: underline;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  text-decoration: underline;
 }
 
 /*Активная страница с товаром*/
 .active-page {
-	font-size: 13px;
-	line-height: 18px;
-	color: #ffffff
+  font-size: 13px;
+  line-height: 18px;
+  color: #ffffff
 }
 
 /*Страницы с товарами*/
 .main-page-navigation-list-item-link {
-	font-size: 13px;
-	line-height: 18px;
-	color: #000000;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
 }
 
 /*О перфораторах*/
 .main-page-about-drill-header {
-	font-size: 30px;
-	line-height: 30px;
-	color: #000000;
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
 }
 
 /*Описание перфоратора*/
 .main-page-about-drill-text {
-	font-size: 13px;
-	line-height: 24px;
-	color: #000000;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
 }
 
 /*Кнопка показать*/
 .submit-filters {
-	font-size: 13px;
-	line-height: 18px;
-	color: #000000;
-	text-transform: uppercase;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 /*Кнопка оформить заказ*/
 .popup-cart-list-item-order {
-	font-size: 14px;
-	line-height: 18px;
-	color: #ffffff;
-	text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 /*Кнопка продолжить покупки*/
 .popup-cart-list-item-continue {
-	font-size: 14px;
-	line-height: 18px;
-	color: #000000;
-	text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
 }
