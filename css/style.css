@@ -124,8 +124,24 @@ header {
   background-position-y: 50%;
 }
 
-.main-goods-slider-next {
+.wrapper-done {
+  background: url("../img/icons/done.png") no-repeat;
+}
 
+.user-wrapper {
+  background: #ffffff url("../img/icons/icon-user.png") no-repeat;
+}
+
+.user-wrapper2 {
+  background: #ffffff url("../img/icons/icon-login.png") no-repeat;
+}
+
+a.access-navigation-list-link {
+  margin-left: 30px;
+}
+
+.--catalog {
+  background: url("../img/icons/icon-home.png") no-repeat;
 }
 
 .button {
@@ -805,4 +821,16 @@ button.main-header-search-link:focus {
   line-height: 18px;
   color: #000000;
   text-transform: uppercase;
+}
+
+.producer-wrapper {
+  background: url("../img/icons/checkbox-on-active.png") no-repeat;
+}
+
+.accum-wraper {
+  background: url("../img/icons/radio-on-active.png") no-repeat;
+}
+
+.--new {
+  background: url("../img/icons/new flag.png") no-repeat;
 }
