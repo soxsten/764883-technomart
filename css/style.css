@@ -16,14 +16,6 @@ button.services-list-item-delivery {
   color: #32425c;
 }
 
-.access-navigation-list-item {
-  background-color: #ffffff;
-}
-
-.access-navigation-list-item-link {
-  color: #000000;
-}
-
 .footer-contacts-emails-list-text-link {
   color: #ffd180;
 }
@@ -39,6 +31,14 @@ button.services-list-item-delivery {
 
 .footer-company-list-item-link {
   color: #f3f7f9;
+}
+
+.footer-company-list-item-link:hover {
+text-decoration: underline;
+}
+
+.footer-company-list-item-link:active {
+color: #929caa;
 }
 
 header {
@@ -237,6 +237,15 @@ a {
   color: #ffd180;
 }
 
+.footer-goods-list-item-link:hover {
+  text-decoration: underline;
+  color: #ffd180;
+}
+
+.footer-goods-list-item-link:active {
+  color: #696866;
+}
+
 /*Техномарт*/
 .main-header-search-link {
   font-size: 24px;
@@ -277,10 +286,6 @@ button.main-header-search-link:focus {
 
 .access-wrapper {
   background: url("../img/icons/icon-login.png") no-repeat;
-}
-
-.access-navigation-list-item-link-access {
-  margin-left: 30px;
 }
 
 /*Поиск*/
@@ -519,6 +524,20 @@ button.main-header-search-link:focus {
   color: #f3f7f9;
 }
 
+.footer-contacts-emails-list-item-mail:hover {
+  font-size: 16px;
+  line-height: 18px;
+  color: #f1c77c;
+  text-decoration: underline;
+}
+
+.footer-contacts-emails-list-item-mail:active {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ee3643;
+  text-decoration: underline;
+}
+
 /*Почта для обратной связи*/
 .footer-contacts-emails-list-item-mail {
   font-size: 16px;
@@ -538,6 +557,19 @@ button.main-header-search-link:focus {
   font-size: 16px;
   line-height: 18px;
   color: #ffd180;
+}
+
+.footer-contacts-emails-list-text-link:hover {
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: underline;
+  color: #ffd180;
+}
+
+.footer-contacts-emails-list-text-link:active {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ee3643;
 }
 
 /*Сервисы*/
@@ -681,6 +713,7 @@ button.main-header-search-link:focus {
   font-size: 13px;
   line-height: 18px;
   color: #000000;
+  background-color: #f7f3ec;
   text-transform: uppercase;
 }
 
@@ -764,7 +797,7 @@ button.main-header-search-link:focus {
 }
 
 /*Личный кабине, заказы*/
-.access-navigation-list-item-link {
+.access-navigation-list-item-person {
   font-size: 16px;
   line-height: 18px;
   color: #000000;
@@ -833,4 +866,8 @@ button.main-header-search-link:focus {
 
 .--new {
   background: url("../img/icons/new flag.png") no-repeat;
+}
+
+.sorting-type {
+  background-color: #f7f3ec;
 }
