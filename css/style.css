@@ -211,7 +211,15 @@ a.access-navigation-list-link {
   margin-left: 40px;
 }
 
-.services-list-item-button {
+button.services-list-item-button.--active-service {
+  color: #32425c;
+}
+
+button.services-list-item-button.--active-service:hover {
+  color: #293449;
+}
+
+button.services-list-item-button.--active-service:active {
   color: #ffffff;
 }
 
@@ -816,6 +824,21 @@ button.main-header-search-link:focus {
   font-size: 13px;
   line-height: 18px;
   color: #000000;
+  border: 2px solid #e5e5e5;
+}
+
+.main-page-navigation-list-item-link:hover {
+  border: 2px solid #bdc6ca;
+}
+
+.main-page-navigation-list-item-link:active {
+  border: 2px solid #ee3643;
+}
+
+.active-page {
+  color: #ffffff;
+  background-color: #ee3643;
+  border: #ee3643;
 }
 
 /*О перфораторах*/
@@ -870,4 +893,20 @@ button.main-header-search-link:focus {
 
 .sorting-type {
   background-color: #f7f3ec;
+}
+
+.filters-form-list-item-acumulator {
+  background: url("../img/icons/radio-on-active.png") no-repeat;
+}
+
+.filters-form-list-item-acumulator:hover {
+  background: url("../img/icons/radio-on-hover.png") no-repeat;
+}
+
+.filters-form-list-item-acumulator:active {
+  background: url("../img/icons/radio-on-blocked.png") no-repeat;
+}
+
+.filters-form-producers-list-item-bosch {
+
 }
