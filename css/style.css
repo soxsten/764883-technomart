@@ -10,6 +10,11 @@ li {
 a {
   text-decoration: none;
   color: #ffffff;
+  font-family: Cuprum, Arial, sans-serif;
+}
+
+body {
+  font-family: Cuprum, Arial, sans-serif;
 }
 
 button.services-list-item-delivery {
@@ -322,6 +327,7 @@ button.main-header-search-link:focus {
   font-size: 16px;
   line-height: 23px;
   color: #ee3643;
+  font-style: italic;
 }
 
 /*Телефон магазина*/
@@ -358,6 +364,7 @@ button.main-header-search-link:focus {
   font-size: 24px;
   line-height: 30px;
   color: #ffffff;
+  font-weight: bold;
 }
 
 /*Кнопки для разделов*/
@@ -381,6 +388,7 @@ button.main-header-search-link:focus {
   line-height: 18px;
   color: #ffffff;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 /*Доставка*/
@@ -396,6 +404,7 @@ button.main-header-search-link:focus {
   line-height: 18px;
   color: #ffffff;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 /*Слайдер заголовок*/
@@ -404,6 +413,7 @@ button.main-header-search-link:focus {
   line-height: 36px;
   color: #ffffff;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 /*Слайдер описание*/
@@ -442,6 +452,8 @@ button.main-header-search-link:focus {
   font-size: 18px;
   line-height: 20px;
   color: #000000;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: bold;
 }
 
 /*Старая цена*/
@@ -449,6 +461,8 @@ button.main-header-search-link:focus {
   font-size: 18px;
   line-height: 20px;
   color: #a9a9a9;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: bold;
 }
 
 /*Новая цена*/
@@ -456,6 +470,8 @@ button.main-header-search-link:focus {
   font-size: 17px;
   line-height: 18px;
   color: #ffffff;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: bold;
 }
 
 /*Популярные производители*/
@@ -488,7 +504,6 @@ button.main-header-search-link:focus {
   line-height: 30px;
   color: #ffffff;
   text-transform: uppercase;
-
 }
 
 /*Нижний блок навигации*/
@@ -594,6 +609,7 @@ button.main-header-search-link:focus {
   font-size: 13px;
   line-height: 24px;
   color: #000000;
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 /*Доставка кнопка*/
@@ -616,6 +632,7 @@ button.main-header-search-link:focus {
   font-size: 13px;
   line-height: 24px;
   color: #000000;
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 /*Гарантия кнопка*/
@@ -631,6 +648,7 @@ button.main-header-search-link:focus {
   line-height: 36px;
   color: #000000;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 /*Доставка кнопка*/
@@ -668,6 +686,7 @@ button.main-header-search-link:focus {
   font-size: 13px;
   line-height: 24px;
   color: #000000;
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 /*Партнеры*/
@@ -707,6 +726,8 @@ button.main-header-search-link:focus {
   font-size: 13px;
   line-height: 18px;
   color: #000000;
+  text-transform: uppercase;
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 /*Название раздела*/
@@ -732,6 +753,8 @@ button.main-header-search-link:focus {
   line-height: 18px;
   color: #000000;
   text-transform: uppercase;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: bold;
 }
 
 /*Производители*/
@@ -739,6 +762,8 @@ button.main-header-search-link:focus {
   font-size: 15px;
   line-height: 20px;
   color: #000000;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: bold;
 }
 
 /*Заголовок питание*/
@@ -747,6 +772,8 @@ button.main-header-search-link:focus {
   line-height: 30px;
   color: #000000;
   text-transform: uppercase;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: bold;
 }
 
 /*Типы аккумуляторов*/
@@ -755,6 +782,7 @@ button.main-header-search-link:focus {
   line-height: 20px;
   color: #000000;
   text-transform: uppercase;
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 /*Сортировка*/
@@ -826,6 +854,7 @@ button.main-header-search-link:focus {
   line-height: 18px;
   color: #000000;
   border: 2px solid #e5e5e5;
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .main-page-navigation-list-item-link:hover {
@@ -854,6 +883,7 @@ button.main-header-search-link:focus {
   font-size: 13px;
   line-height: 24px;
   color: #000000;
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 /*Кнопка показать*/
@@ -909,5 +939,5 @@ button.main-header-search-link:focus {
 }
 
 .filters-form-producers-list-item-bosch {
-
+  font-family: "PT Sans", Arial, sans-serif;
 }
