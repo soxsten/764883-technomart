@@ -53,7 +53,6 @@ header {
 .header-container {
   background-color: #293449;
 }
-
 .header-wrapper {
   background-color: #293449;
 }
@@ -285,7 +284,8 @@ button.main-header-search-link:focus {
 }
 
 .bookmark-wrapper {
-  background: url("../img/icons/icon-bookmark.png") no-repeat;
+  background-image: url("../img/icons/icon-bookmark.png");
+  background-repeat: no-repeat;
 }
 
 .cart-wrapper {
@@ -315,11 +315,29 @@ button.main-header-search-link:focus {
   color: #ffffff;
 }
 
+.orders-list-item:hover {
+  background-color: #212a3a;
+}
+
+.orders-list-item:active {
+  background-color: #161d29;
+  color: #b3b4b6;
+}
+
 /*Оформить заказ*/
 .button-order-link {
   font-size: 17px;
   line-height: 18px;
   color: #ffffff;
+}
+
+.button-order:hover {
+  background-color: #5fbb2d;
+}
+
+.button-order:active {
+  background-color: #518534;
+  color: #b0c4a7;
 }
 
 /*Описание магазина*/
