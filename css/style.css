@@ -355,10 +355,19 @@ button.main-header-search-link:focus {
 }
 
 /*Авторизация на сайте*/
-.access-navigation-list-item-link {
+.access-wrapper {
   font-size: 21px;
   line-height: 21px;
   color: #000000;
+}
+
+/*Не работает access-wrapper*/
+.access-wrapper:hover {
+  color: #ee5962;
+}
+
+.access-wrapper:active {
+  color: #cacaca;
 }
 
 /*Блок навигации*/
@@ -992,4 +1001,29 @@ button.main-header-search-link:focus {
 .main-navigation-list-item:active {
   background-color: #1d2739;
   color: #a8abaf;
+}
+
+/*Не работает user wrapper*/
+.access-navigation-list-link {
+  color: #566175;
+}
+
+.access-navigation-list-link:hover {
+  color: #ee5962;
+}
+
+.access-navigation-list-link:active {
+  color: #cacaca;
+}
+
+.access-navigation-list-item-person {
+  color: #566175;
+}
+
+.access-navigation-list-item-person:hover {
+  color: #ee5962;
+}
+
+.access-navigation-list-item-person:active {
+  color: #cacaca;
 }
