@@ -132,14 +132,6 @@ header {
   background: url("../img/icons/done.png") no-repeat;
 }
 
-.user-wrapper {
-  background: #ffffff url("../img/icons/icon-user.png") no-repeat;
-}
-
-.user-wrapper2 {
-  background: #ffffff url("../img/icons/icon-login.png") no-repeat;
-}
-
 a.access-navigation-list-link {
   margin-left: 30px;
 }
@@ -149,7 +141,6 @@ a.access-navigation-list-link {
 }
 
 .button {
-  background-color: #ee3643;
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -820,12 +811,18 @@ button.main-header-search-link:focus {
   border-bottom: 2px dotted #ee3643;
 }
 
+.sorting-list-item:hover {
+  color: #000000;
+  border-bottom: 2px solid #ee3643;
+}
+
 /*Активный тип сортировки*/
 .active-sort {
   font-size: 13px;
   line-height: 18px;
   color: #ee3643;
   text-transform: uppercase;
+  border-bottom: none;
 }
 
 /*Кнопка купить*/
@@ -958,4 +955,41 @@ button.main-header-search-link:focus {
 
 .filters-form-producers-list-item-bosch {
   font-family: "PT Sans", Arial, sans-serif;
+}
+
+.wrapper-open-catalog {
+  background-color: #ee3643;
+}
+
+.wrapper-open-catalog:hover {
+  background-color: #ca2c37;
+}
+
+.wrapper-open-catalog:active {
+  background-color: #ba2732;
+}
+
+.wrapper-button {
+  background-color: #e5e5e5;
+}
+
+.wrapper-button:hover {
+  background-color: #cccccc;
+}
+
+.wrapper-button:active {
+  background-color: #b2b2b2;
+}
+
+.main-navigation-list-item {
+
+}
+
+.main-navigation-list-item:hover {
+  background-color: #293449;
+}
+
+.main-navigation-list-item:active {
+  background-color: #1d2739;
+  color: #a8abaf;
 }
